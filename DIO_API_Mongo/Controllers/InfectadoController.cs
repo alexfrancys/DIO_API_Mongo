@@ -2,12 +2,11 @@
 using DIO_API_Mongo.Models;
 using Microsoft.AspNetCore.Mvc;
 using MongoDB.Driver;
-using System.Linq;
 
 namespace DIO_API_Mongo.Controllers
 {
-    [Route("[controller]")]
     [ApiController]
+    [Route("[controller]")]
     public class InfectadoController : ControllerBase
     {
         Data.MongoDB _mongoDB;
